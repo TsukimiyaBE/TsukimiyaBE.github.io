@@ -55,6 +55,10 @@ img:hover {
     content: attr(data-text)"";
 }
 
+.image.avatar48, .image.avatar48 img {
+	border-radius: 50%;
+}
+
 
 /*
  * スクロールアニメーション

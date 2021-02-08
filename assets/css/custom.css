@@ -22,7 +22,7 @@ body, input, textarea, select {
     font-weight: 400;
     font-style: normal;
 }
-.top span, .container h2, .container p.alt {
+.container h2, .container p.alt {
     font-family: 'Hachi Maru Pop', sans-serif;
     font-style: normal;
 }

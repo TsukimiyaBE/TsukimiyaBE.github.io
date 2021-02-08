@@ -27,7 +27,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar48"><img src="https://avatars.githubusercontent.com/u/71285393?s=200&v=4" alt="" /></span>
-							<h1 id="title"><font color="#FF0000">月</font>宮計画</h1>
+							<h1 id="title"><span style="color: #FF0000; ">月</span>宮計画</h1>
 							<p>TsukimiyaBE</p>
 						</div>
 
@@ -65,7 +65,7 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt"><font color="#FF4444">月</font>宮計画</h2>
+								<h2 class="alt"><span style="color: #FF4444; ">月</span>宮計画</h2>
 								<p class="alt">当鯖はHoI4の仕組みを忠実に体現した生活サーバーです</p>
 							</header>
 
@@ -88,26 +88,10 @@
 									<td><u>入力</u></td>
 									<td><u>出力</u></td>
 								</tr>
-								<script language="JavaScript">
-									let datas = new Map();
-									datas.set(':food:', '../images/emojis/food.png');
-									datas.set(':armor:', '../images/emojis/armor.png');
-									datas.set(':heart:', '../images/emojis/heart.png');
-									datas.set(':diamond:', '../images/emojis/diamond.png');
-									datas.set(':iron_ingot:', '../images/emojis/iron_ingot.png');
-									datas.set(':gold_coin:', '../images/emojis/gold_coin.png');
-									datas.set(':sunglass:', '../images/emojis/sunglass.png');
-									datas.set(':--:', '../images/emojis/expressionless.png');
-									datas.set(':o:', '../images/emojis/open_mouth.png');
-									datas.set(':tt:', '../images/emojis/tear.png');
-									datas.set(':++:', '../images/emojis/neutral_face.png');
-									datas.set(':^^:', '../images/emojis/smile.png');
-									datas.set(':#--:', '../images/emojis/rage.png');
-									datas.set(':!:', '../images/emojis/exclamation.png');
-									datas.set(':?:', '../images/emojis/question.png');
-									datas.forEach( (value, key) =>
-										document.write("<tr align=\"center\"><td>" + key + "</td><td><img src=\"" + value + "\" /></td></tr>")
-									);
+								<script language="JavaScript" src="../assets/js/custom.js"></script>
+								<script>
+									let array = loadEmojis();
+									array.forEach( it => document.write(it) )
 								</script>
 							</table>
 

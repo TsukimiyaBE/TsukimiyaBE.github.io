@@ -16,6 +16,7 @@
 		<link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
 		<link rel="icon" href="https://avatars.githubusercontent.com/u/71285393?s=200&v=4">
 		<link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/71285393?s=200&v=4">
+		<script language="JavaScript" src="../assets/js/custom.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -84,267 +85,148 @@
 								<div class="col-2 col-4-mobile">
 									<article class="item">
 									<!--位相変移環-->
-										<div class="popup_wrap">
-											<input id="trigger1" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger1" class="close_btn">✖</label>
-														<p>これを使った壁の反対側へ移動できる。<br />
-														イメージとしては某国民的アニメの通り抜けフープ。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger1">
-													<img src="../images/weapons/phase_shift_hoop.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>位相変移環</h3>
-										</header><br />
+										<script>
+											document.write(getWeapons(
+												"位相変移環",
+												[
+													"これを使った壁の反対側へ移動できる。",
+													"イメージとしては某国民的アニメの通り抜けフープ。"
+												],
+												"phase_shift_hoop"
+											));
+										</script>
 									<!--鎖鋸-->
-										<div class="popup_wrap">
-											<input id="trigger2" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger2" class="close_btn">✖</label>
-														<p>一回で木をすべて伐採できるツール系アイテム。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger2">
-													<img src="../images/weapons/chainsaw.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>鎖鋸</h3>
-										</header><br />
+										<script>
+											document.write(getWeapons(
+												"鎖鋸",
+												[
+													"一回で木をすべて伐採できるツール系アイテム。"
+												],
+												"chainsaw"
+											));
+										</script>
 									<!--隼-->
-										<div class="popup_wrap">
-											<input id="trigger3" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger3" class="close_btn">✖</label>
-														<p>つかうと向いている方角へ猛ダッシュする。<br />
-														これで学校にも遅刻しない。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger3">
-													<img src="../images/weapons/dash_feather.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>隼</h3>
-										</header><br />
+										<script>
+											document.write(getWeapons(
+												"隼",
+												[
+													"つかうと向いている方角へ猛ダッシュする。",
+													"これで学校にも遅刻しない。"
+												],
+												"dash_feather"
+											));
+										</script>
 									<!--守護のお守り-->
-										<div class="popup_wrap">
-											<input id="trigger4" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger4" class="close_btn">✖</label>
-														<p>オフハンドで使えるアイテム。<br />
-														使うと数秒だけ耐性能力が強化される。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger4">
-													<img src="../images/weapons/amulet_of_protect.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>守護のお守り</h3>
-										</header>
+										<script>
+											document.write(getWeapons(
+												"守護のお守り",
+												[
+													"オフハンドで使えるアイテム。",
+													"使うと数秒だけ耐性能力が強化される。"
+												],
+												"amulet_of_protect",
+												true
+											));
+										</script>
 									</article>
 								</div>
 								<div class="col-2 col-4-mobile">
 									<article class="item">
 									<!--体力水晶-->
-										<div class="popup_wrap">
-											<input id="trigger5" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger5" class="close_btn">✖</label>
-														<p>使うと動けなくなるが、体力とスタミナが全回復する。<br />
-														この静止時間はダメージ量に比例する。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger5">
-													<img src="../images/weapons/heal_crystal.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>体力水晶</h3>
-										</header><br />
-
+										<script>
+											document.write(getWeapons(
+												"体力水晶",
+												[
+													"使うと動けなくなるが、体力とスタミナが全回復する。",
+													"この静止時間はダメージ量に比例する。"
+												],
+												"heal_crystal"
+											));
+										</script>
 									<!--大金槌-->
-										<div class="popup_wrap">
-											<input id="trigger6" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger6" class="close_btn">✖</label>
-														<p>一回で多くの石を破壊できるようになるツール系アイテム</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger6">
-													<img src="../images/weapons/striker.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>大金槌</h3>
-										</header><br />
+										<script>
+											document.write(getWeapons(
+												"大金槌",
+												[
+													"一回で多くの石を破壊できるようになるツール系アイテム。"
+												],
+												"striker"
+											));
+										</script>
 									<!--手投げ爆弾-->
-										<div class="popup_wrap">
-											<input id="trigger7" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger7" class="close_btn">✖</label>
-														<p>向いている方へグレネードを投擲する。<br />
-														着弾してすぐに爆発する。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger7">
-													<img src="../images/weapons/grenade.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>手投げ爆弾</h3>
-										</header><br />
+										<script>
+											document.write(getWeapons(
+												"手投げ爆弾",
+												[
+													"向いている方へグレネードを投擲する。",
+													"着弾してすぐに爆発する。"
+												],
+												"grenade"
+											));
+										</script>
 									<!--視野拡大器-->
-										<div class="popup_wrap">
-											<input id="trigger8" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger8" class="close_btn">✖</label>
-														<p>オフハンドで利用が可能。<br />
-														使うと鈍足になるが、超倍率で遠くを見えるようになる。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger8">
-													<img src="../images/weapons/mini_scope.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>視野拡大器</h3>
-										</header>
+										<script>
+											document.write(getWeapons(
+												"視野拡大器",
+												[
+													"オフハンドで利用が可能。",
+													"使うと鈍足になるが、超倍率で遠くを見えるようになる。"
+												],
+												"mini_scope",
+												true
+											));
+										</script>
 									</article>
 								</div>
 								<div class="col-2 col-4-mobile">
 									<article class="item">
 									<!--粘着玉-->
-										<div class="popup_wrap">
-											<input id="trigger9" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger9" class="close_btn">✖</label>
-														<p>使うと壁に張り付くことができるようになる。<br />
-														落下ダメージの低減に活躍する。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger9">
-													<img src="../images/weapons/sticky_ball.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>粘着玉</h3>
-										</header><br />
-
+										<script>
+											document.write(getWeapons(
+												"粘着玉",
+												[
+													"使うと壁に張り付くことができるようになる。",
+													"落下ダメージの低減に活躍する。"
+												],
+												"sticky_ball"
+											));
+										</script>
 									<!--活発フグ-->
-										<div class="popup_wrap">
-											<input id="trigger10" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger10" class="close_btn">✖</label>
-														<p>フグを強化したらこうなってしまった。<br />
-														使うと強靭な脚力でジャンプする。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger10">
-													<img src="../images/weapons/kappatsu_fugu.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>活発フグ</h3>
-										</header><br />
+										<script>
+											document.write(getWeapons(
+												"活発フグ",
+												[
+													"フグを強化したらこうなってしまった。",
+													"使うと強靭な脚力でジャンプする。"
+												],
+												"kappatsu_fugu"
+											));
+										</script>
 									<!--現代魔法の杖-->
-										<div class="popup_wrap">
-											<input id="trigger11" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger11" class="close_btn">✖</label>
-														<p>向いている方角へ弾丸を飛ばす銃系等武器。<br />
-														ブロックは貫通しない。弾丸は石炭<br />
-														リロードはわりと早め。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger11">
-													<img src="../images/weapons/magic_stick.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>現代魔法の杖</h3>
-										</header><br />
+										<script>
+											document.write(getWeapons(
+												"現代魔法の杖",
+												[
+													"向いている方角へ弾丸を飛ばす銃系等武器。",
+													"ブロックは貫通しない。弾丸は石炭。",
+													"リロードはわりと早め。"
+												],
+												"magic_stick"
+											));
+										</script>
 									<!--地雷-->
-										<div class="popup_wrap">
-											<input id="trigger12" type="checkbox">
-											    <div class="popup_overlay">
-											        <div class="popup_content">
-											            <label for="trigger12" class="close_btn">✖</label>
-														<p>投擲して地雷を設置できる。<br />
-														以降、地雷を踏んだプレイヤーを感知したら致死爆発を起こす。<br />
-														一分後に自動爆発する。</p>
-											        </div>
-											    </div>
-										</div>
-										<a href="#" class="image fit ">
-											<div class="scrollanime">
-												<label for="trigger12">
-													<img src="../images/weapons/land_mine.png" alt="" />
-												</label>
-											</div>
-										</a>
-										<header>
-											<h3>地雷</h3>
-										</header>
+										<script>
+											document.write(getWeapons(
+												"地雷",
+												[
+													"投擲して地雷を設置できる。",
+													"以降、地雷を踏んだプレイヤーを感知したら致死爆発を起こす。",
+													"一分後に自動爆発する。"
+												],
+												"land_mine",
+												true
+											));
+										</script>
 									</article>
 								</div>
 							</div>

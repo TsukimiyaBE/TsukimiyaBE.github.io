@@ -28,7 +28,7 @@ function getWeapons(name = String, description = Array, imageName = String, last
     text += "<div class=\"popup_wrap\">";
     text += "<input id=\"" + trigger + "\" type=\"checkbox\">";
     text += "<div class=\"popup_overlay\"><div class=\"popup_content\">";
-    text += "<label for=\"" + trigger + "\" class=\"close_btn\">✖</label><p>";
+    text += "<label for=\"" + trigger + "\" class=\"close_btn\">✖</label><p><br />";
     for (let i = 0; i < description.length; i++) {
         text += description[i] ?? "";
         if (i < description.length) {

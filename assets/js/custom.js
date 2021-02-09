@@ -17,7 +17,7 @@ function loadEmojis() {
     datas.set(':!:', 'images/emojis/exclamation.png');
     datas.set(':?:', 'images/emojis/question.png');
     datas.forEach( (value, key) =>
-        array.push("<tr align=\"center\"><td>" + key + "</td><td><img src=\"" + value + "\" alt=\"\"/></td></tr>")
+        array.push("<tr><td>" + key + "</td><td><img src=\"" + value + "\" alt=\"\"/></td></tr>")
     );
     return array;
 }

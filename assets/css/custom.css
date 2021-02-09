@@ -1,15 +1,18 @@
+/*
+ * どうしてもの時
+ * <タグ class=".wf-hachimarupop">文字のフォントを変える</タグ>
+ */
 .wf-nicomoji { font-family: 'Nico Moji'; }
-.wf-hannari { font-family: 'Hannari'; }
-.wf-mplus1p { font-family: 'M PLUS 1p'; }
-.wf-roundedmplus1c { font-family: 'M PLUS Rounded 1c'; }
+.wf-yuseimagic { font-family: 'Yusei Magic', sans-serif; }
+.wf-hachimarupop { font-family: 'Hachi Maru Pop', sans-serif; }
 
-/*--各種場所でのファント--*/
-.top h1 {
+
+.top h1 { /* PC表示 左上の「月宮計画」 */
     font-family: 'Yusei Magic', sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-.top p {
+.top p { /* PC表示 左上の「TsukimiyaBE」 */
     font-family: 'Nico Moji', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -19,7 +22,7 @@ body, input, textarea, select {
     font-weight: 400;
     font-style: normal;
 }
-.top span, .container h2, .container p.alt {
+.container h2, .container p.alt {
     font-family: 'Hachi Maru Pop', sans-serif;
     font-style: normal;
 }
@@ -28,13 +31,15 @@ body, input, textarea, select {
     font-style: normal;
 }
 
-/*--ボタンとか画像のホバー時--*/
+
+/* 写真を浮かび上がらせる */
 img { transition-duration: 0.75s; }
 img:hover {
     transform: scale(1.05, 1.05);
     transition-duration: 0.75s;
 }
 
+/* ボタンを浮かび上がらせる */
 .button { transition-duration: 2.0s; }
 .button:hover {
     transform: scale(1.08, 1.08);
@@ -44,7 +49,25 @@ img:hover {
     font-family: 'Nico Moji';
 }
 
-/*--スクロールアニメーション--*/
+
+/* 左バーのボトム部分 */
+.bottom a.viewer:hover::before {
+    content: attr(data-text)"";
+}
+
+.image.avatar48, .image.avatar48 img {
+	border-radius: 50%;
+}
+
+
+/*
+ * スクロールアニメーション
+ * class="scrollanime" フェードイン
+ * class="scrollanime downup" 下から上へ
+ * class="scrollanime updown" 上から下へ
+ * class="scrollanime slide-left" 右から左へ
+ * class="scrollanime slide-right" 左から右へ
+ */
 .scrollanime {opacity: 0;}
 .fadeInDown {
     animation-name: fadeInDown;
@@ -66,7 +89,7 @@ img:hover {
 .slide-left {transform: translateX(-200px);}
 
 
-/*--ポップアップ--*/
+/* ポップアップ (参考: weapon.html) */
 .popup_wrap input {
     display: none;
 }
@@ -135,7 +158,7 @@ img:hover {
     transition: .3s ease;
 }
 .open_btn:hover{
-      background:#000;
-      color:#fff;
-      transition: .3s ease;
+    background:#000;
+    color:#fff;
+    transition: .3s ease;
 }

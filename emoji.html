@@ -9,8 +9,8 @@
 		<title>月宮計画</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<link rel="stylesheet" href="../assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Yusei+Magic&family=Kosugi+Maru&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header  -->
+		<!-- Header -->
 			<div id="header">
 
 				<div class="top">
@@ -34,13 +34,13 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="../index.html#top" id="top-link"><span class="icon solid fa-home">イントロ</span></a></li>
-								<li><a href="../index.html#appeal" id="appeal-link"><span class="icon solid fa-th">ここが凄い</span></a></li>
-								<li><a href="../index.html#wait" id="wait-link"><span class="icon solid fa-hand-paper">留意点</span></a></li>
-								<li><a href="../index.html#join" id="join-link"><span class="icon solid fa-door-open">参加方法</span></a></li>
-								<li><a href="../index.html#sns" id="sns-link"><span class="icon solid fa-handshake">SNSリンク</span></a></li>
-								<li><a href="../index.html#admin" id="admin-link"><span class="icon solid fa-users-cog">開発者</span></a></li>
-								<li><a href="../index.html#contact" id="contact-link"><span class="icon solid fa-envelope">お問い合わせ</span></a></li>
+								<li><a href="index.html#top" id="top-link"><span class="icon solid fa-home">イントロ</span></a></li>
+								<li><a href="index.html#appeal" id="appeal-link"><span class="icon solid fa-th">ここが凄い</span></a></li>
+								<li><a href="index.html#wait" id="wait-link"><span class="icon solid fa-hand-paper">留意点</span></a></li>
+								<li><a href="index.html#join" id="join-link"><span class="icon solid fa-door-open">参加方法</span></a></li>
+								<li><a href="index.html#sns" id="sns-link"><span class="icon solid fa-handshake">SNSリンク</span></a></li>
+								<li><a href="index.html#admin" id="admin-link"><span class="icon solid fa-users-cog">開発者</span></a></li>
+								<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">お問い合わせ</span></a></li>
 							</ul>
 						</nav>
 
@@ -73,17 +73,30 @@
 					</section>
 
 				<!-- Template -->
-					<section id="war" class="two">
+					<section id="emoji" class="two">
 						<div class="container">
 
 							<header>
-								<h2>戦争について</h2>
+								<h2>絵文字</h2>
 							</header>
 
-							<p></p>
+							<p>当鯖ではチャットで扱える絵文字があります。<br />
+							多すぎるのでここで示すのはほんの一部になりますが、ご了承ください。</p>
+
+							<table border>
+								<tr align="center">
+									<td><u>入力</u></td>
+									<td><u>出力</u></td>
+								</tr>
+								<script language="JavaScript" src="assets/js/custom.js"></script>
+								<script>
+									let array = loadEmojis();
+									array.forEach( it => document.write(it) )
+								</script>
+							</table>
 
 							<footer>
-								<a href="../index.html" class="button scrolly">ホームへ</a>
+								<a href="index.html" class="button scrolly">ホームへ</a>
 							</footer>
 
 						</div>
@@ -101,13 +114,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.scrolly.min.js"></script>
-			<script src="../assets/js/jquery.scrollex.min.js"></script>
-			<script src="../assets/js/jquery.custom.js"></script>
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.custom.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 	</body>
 </html>

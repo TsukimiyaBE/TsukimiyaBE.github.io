@@ -1,0 +1,41 @@
+/*
+	上書きしている修正後のCSS
+	基本的にmain.cssは変更しないで上書きをする
+*/
+
+
+/* どうしてもの時に <タグ class=".wf-hachimarupop">文字のフォントを変える</タグ> */
+.wf-nicomoji { font-family: 'Nico Moji', sans-serif; }
+.wf-yuseimagic { font-family: 'Yusei Magic', sans-serif; }
+.wf-hachimarupop { font-family: 'Hachi Maru Pop', sans-serif; }
+
+
+body, input, textarea, select {
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.top h1 { /* PC表示 左上の「月宮計画」 */
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.top p { /* PC表示 左上の「TsukimiyaBE」 */
+    font-family: 'Nico Moji', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container h2, .container p.alt {
+    font-family: 'Hachi Maru Pop', sans-serif;
+    font-style: normal;
+}
+.container h2.alt, .container p {
+    font-family: 'Yusei Magic', sans-serif;
+    font-style: normal;
+}
+.button.scrolly {
+    font-family: 'Nico Moji', sans-serif;
+}
+.image.avatar48, .image.avatar48 img {
+    border-radius: 50%;
+}

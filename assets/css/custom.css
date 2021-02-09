@@ -1,36 +1,6 @@
 /*
- * どうしてもの時
- * <タグ class=".wf-hachimarupop">文字のフォントを変える</タグ>
- */
-.wf-nicomoji { font-family: 'Nico Moji'; }
-.wf-yuseimagic { font-family: 'Yusei Magic', sans-serif; }
-.wf-hachimarupop { font-family: 'Hachi Maru Pop', sans-serif; }
-
-
-.top h1 { /* PC表示 左上の「月宮計画」 */
-    font-family: 'Yusei Magic', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-.top p { /* PC表示 左上の「TsukimiyaBE」 */
-    font-family: 'Nico Moji', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-body, input, textarea, select {
-    font-family: 'Yusei Magic', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.container h2, .container p.alt {
-    font-family: 'Hachi Maru Pop', sans-serif;
-    font-style: normal;
-}
-.container p, .container h2.alt {
-    font-family: 'Yusei Magic', sans-serif;
-    font-style: normal;
-}
-
+	新しく定義したCSS
+*/
 
 /* 写真を浮かび上がらせる */
 img { transition-duration: 0.75s; }
@@ -44,19 +14,6 @@ img:hover {
 .button:hover {
     transform: scale(1.08, 1.08);
     transition-duration: 2.0s;
-}
-.button.scrolly {
-    font-family: 'Nico Moji';
-}
-
-
-/* 左バーのボトム部分 */
-.bottom a.viewer:hover::before {
-    content: attr(data-text)"";
-}
-
-.image.avatar48, .image.avatar48 img {
-	border-radius: 50%;
 }
 
 

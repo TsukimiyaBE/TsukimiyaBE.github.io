@@ -15,9 +15,15 @@ body, input, textarea, select {
     font-weight: 400;
     font-style: normal;
 }
+button:hover, .button:hover {
+    background-color: #afdbd9;
+}
+.button.scrolly {
+    font-family: 'Nico Moji', sans-serif;
+}
 .top h1 { /* PC表示 左上の「月宮計画」 */
     font-family: 'Yusei Magic', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 .top p { /* PC表示 左上の「TsukimiyaBE」 */
@@ -32,9 +38,6 @@ body, input, textarea, select {
 .container h2.alt, .container p {
     font-family: 'Yusei Magic', sans-serif;
     font-style: normal;
-}
-.button.scrolly {
-    font-family: 'Nico Moji', sans-serif;
 }
 .image.avatar48, .image.avatar48 img {
     border-radius: 50%;

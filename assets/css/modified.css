@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/*
+	上書きしている修正後のCSS
+	基本的にmain.cssは変更しないで上書きをする
+*/
+
+
+/* どうしてもの時に <タグ class=".wf-hachimarupop">文字のフォントを変える</タグ> */
+.wf-nicomoji { font-family: 'Nico Moji', sans-serif; }
+.wf-yuseimagic { font-family: 'Yusei Magic', sans-serif; }
+.wf-hachimarupop { font-family: 'Hachi Maru Pop', sans-serif; }
+
+
+body, input, textarea, select {
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button:hover, .button:hover {
+    background-color: #afdbd9;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table td {
+    padding: 0.5em 4em 0.5em 0.3em;
+}
+.button.scrolly {
+    font-family: 'Nico Moji', sans-serif;
+}
+.top h1 { /* PC表示 左上の「月宮計画」 */
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.top p { /* PC表示 左上の「TsukimiyaBE」 */
+    font-family: 'Nico Moji', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container h2, .container p.alt {
+    font-family: 'Hachi Maru Pop', sans-serif;
+    font-style: normal;
+}
+.container h2.alt, .container p {
+    font-family: 'Yusei Magic', sans-serif;
+    font-style: normal;
+}
+.image.avatar48, .image.avatar48 img {
+    border-radius: 50%;
+}

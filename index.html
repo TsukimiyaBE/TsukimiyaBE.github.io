@@ -4,56 +4,23 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="ja">
 	<head>
 		<title>月宮計画</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Yusei+Magic&family=Kosugi+Maru&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/modified.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nicomoji.css">
 		<link rel="icon" href="https://avatars.githubusercontent.com/u/71285393?s=200&v=4">
 		<link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/71285393?s=200&v=4">
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
-
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="https://avatars.githubusercontent.com/u/71285393?s=200&v=4" alt="" /></span>
-							<h1 id="title"><span style="color: #FF0000; ">月</span>宮計画</h1>
-							<p>TsukimiyaBE</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">ホーム</span></a></li>
-								<li><a href="#top" id="wait-link"><span class="icon solid fa-hand-paper">ルール</span></a></li>
-								<li><a href="#top" id="join-link"><span class="icon solid fa-door-open">参加方法</span></a></li>
-								<li><a href="#top" id="admin-link"><span class="icon solid fa-users-cog">開発者</span></a></li>
-								<li><a href="https://discord.gg/c3XCeE9"><span class="icon brands fa-discord">Discord</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-					<ul class="icons">
-						<li><a href="pages/weapon.html" class="viewer" data-text="item"><span class="icon solid fa-bomb"></span></a></li>
-						<li><a href="pages/emoji.html" class="viewer" data-text="emoji"><span class="icon solid fa-icons"></span></a></li>
-						<li><a href="pages/life.html" class="viewer" data-text="life"><span class="icon solid fa-heartbeat"></span></a></li>
-						<li><a href="pages/war.html" class="viewer" data-text="war"><span class="icon solid fa-chess"></span></a></li>
-					</ul>
-				</div>
-
-			</div>
+		<script src="assets/js/template/header.js"></script>
 
 		<!-- Main -->
 			<div id="main">
@@ -63,8 +30,8 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt"><font color="#FF4444">月</font>宮計画</h2>
-								<p class="alt">よろしい　ならば<font color="#FF2222">戦争</font>だ<br>状況を開始せよ</p>
+								<h2 class="alt"><span style="color: #FF4444; ">月</span>宮計画</h2>
+								<p class="alt">よろしい　ならば<span style="color: #FF2222; ">戦争</span>だ<br>状況を開始せよ</p>
 							</header>
 
 							<footer>
@@ -92,13 +59,13 @@
 							<div class="row aln-center">
 								<div class="col-5 col-6-mobile">
 									<article class="item">
-										<a href="pages/weapon.html" class="image fit"><div class="scrollanime slide-left"><img src="images/panel/weapons.png" alt="" /></div></a>
+										<a href="weapon.html" class="image fit"><div class="scrollanime slide-left"><img src="images/panel/weapons.png" alt="" /></div></a>
 										<header>
 											<h3>オリジナルアイテム</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="pages/emoji.html" class="image fit"><div class="scrollanime slide-left"><img src="images/panel/emojis.png" alt="" /></div></a>
+										<a href="emoji.html" class="image fit"><div class="scrollanime slide-left"><img src="images/panel/emojis.png" alt="" /></div></a>
 										<header>
 											<h3>鯖で使える絵文字</h3>
 										</header>
@@ -106,13 +73,13 @@
 								</div>
 								<div class="col-5 col-6-mobile">
 									<article class="item">
-										<a href="pages/life.html" class="image fit"><div class="scrollanime slide-right"><img src="images/panel/about_life.png" alt="" /></div></a>
+										<a href="life.html" class="image fit"><div class="scrollanime slide-right"><img src="images/panel/about_life.png" alt="" /></div></a>
 										<header>
 											<h3>生活全般について</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="pages/war.html" class="image fit"><div class="scrollanime slide-right"><img src="images/panel/about_war.png" alt="" /></div></a>
+										<a href="war.html" class="image fit"><div class="scrollanime slide-right"><img src="images/panel/about_war.png" alt="" /></div></a>
 										<header>
 											<h3>戦争などについて</h3>
 										</header>
@@ -122,25 +89,8 @@
 						</div>
 					</section>
 
-				<!-- Wait>
-					<section id="wait" class="three">
-						<div class="container">
-
-							<header>
-								<h2>留意点</h2>
-								<a class="image featured"><div class="scrollanime downup"><img src="images/banners/wait.png" alt="" /></div></a>
-							</header>
-
-							<p>このサーバーではDiscordとも連携しており、双方向から会話ができます。<br />
-							常識の範疇でしょうが、過激な発言や誹謗中傷、第三者を不快にさせるような発言は慎みましょう。<br />
-							チャットによるスパムはもってのほか、嫌がらせなどもしないようにしましょう。<br />
-							そして、良識を持ってプレイをしてもらいたいと思います。</p>
-
-						</div>
-					</section -->
-
 				<!-- Join -->
-					<section id="join" class="four">
+					<section id="join" class="three">
 						<div class="container">
 
 							<header>
@@ -155,7 +105,7 @@
 					</section>
 
 				<!-- SNS -->
-					<section id="sns" class="five">
+					<section id="sns" class="four">
 						<div class="container">
 
 							<header>
@@ -165,58 +115,13 @@
 
 							<p>当サーバーは公式のツイッターが存在しません。<br />
 							よって我々は情報発信を主にDiscordのみで行っています。<br />
-							前述した通り、アクセス情報もこちらにあるので参加をお願いします。</p>
+							スマホの方はメニューバー、PC及びタブレットの方はサイドメニューにある、ボタンから参加をお願いします。</p>
 
 						</div>
 					</section>
 
-				<!-- Admin -->
-					<!-- section id="admin" class="six">
-						<div class="container">
-
-							<header>
-								<h2>開発者</h2>
-								<a class="image featured"><div class="scrollanime downup"><img src="images/banners/admin.png" alt="" /></div></a>
-							</header>
-
-							<p>このサーバーは二人の赤子が製作しています。<br />
-							彼らは過去数年、Minecraftサーバーのプラグイン製作の界隈に居続け、技術を磨いてきた特上品。<br />
-							出荷される前に農園から逃げてきました。</p>
-
-							<div class="row aln-center">
-								<div class="col-2 col-5-mobile">
-									<article class="item">
-										<a href="https://twitter.com/deceitya" class="image fit ">
-											<div class="scrollanime">
-												<img src="https://avatars.githubusercontent.com/u/49361292?s=460&u=af70d4b2981509ac503cb931038e6c0fb0fbf2b0&v=4" alt="" />
-											</div>
-										</a>
-										<header>
-											<h3>deceitya</h3>
-											鯖主, 開発者
-										</header>
-									</article>
-								</div>
-								<div class="col-2 col-5-mobile">
-									<article class="item">
-										<a href="https://twitter.com/b0ymelancholy" class="image fit ">
-											<div class="scrollanime">
-												<img src="https://avatars.githubusercontent.com/u/50545243?s=460&u=b3a69558bdcec7e0185d13c38a0c49832eae8383&v=4" alt=""/>
-											</div>
-										</a>
-										<header>
-											<h3>boymelancholy</h3>
-											開発者
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section -->
-
 				<!-- Contact -->
-					<!-- section id="contact" class="seven">
+					<!-- section id="contact" class="five">
 						<div class="container">
 
 							<header>
@@ -247,7 +152,7 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.custom.js"></script>
+			<script src="assets/js/scrollanimation.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>

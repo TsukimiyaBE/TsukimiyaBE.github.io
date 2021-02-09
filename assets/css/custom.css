@@ -1,64 +1,14 @@
 /*
- * どうしてもの時
- * <タグ class=".wf-hachimarupop">文字のフォントを変える</タグ>
- */
-.wf-nicomoji { font-family: 'Nico Moji'; }
-.wf-yuseimagic { font-family: 'Yusei Magic', sans-serif; }
-.wf-hachimarupop { font-family: 'Hachi Maru Pop', sans-serif; }
-
-
-.top h1 { /* PC表示 左上の「月宮計画」 */
-    font-family: 'Yusei Magic', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-.top p { /* PC表示 左上の「TsukimiyaBE」 */
-    font-family: 'Nico Moji', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-body, input, textarea, select {
-    font-family: 'Yusei Magic', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.container h2, .container p.alt {
-    font-family: 'Hachi Maru Pop', sans-serif;
-    font-style: normal;
-}
-.container p, .container h2.alt {
-    font-family: 'Yusei Magic', sans-serif;
-    font-style: normal;
-}
-
+	新しく定義したCSS
+*/
 
 /* 写真を浮かび上がらせる */
 img { transition-duration: 0.75s; }
 img:hover {
+    -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05, 1.05);
     transition-duration: 0.75s;
 }
-
-/* ボタンを浮かび上がらせる */
-.button { transition-duration: 2.0s; }
-.button:hover {
-    transform: scale(1.08, 1.08);
-    transition-duration: 2.0s;
-}
-.button.scrolly {
-    font-family: 'Nico Moji';
-}
-
-
-/* 左バーのボトム部分 */
-.bottom a.viewer:hover::before {
-    content: attr(data-text)"";
-}
-
-.image.avatar48, .image.avatar48 img {
-	border-radius: 50%;
-}
-
 
 /*
  * スクロールアニメーション
@@ -87,6 +37,37 @@ img:hover {
 .sect02{overflow: hidden;}
 .slide-right {transform: translateX(200px);}
 .slide-left {transform: translateX(-200px);}
+
+#dscrdbtn {
+    text-align: center;
+}
+.discordbtn {
+    content: '';
+    color: #FFF;
+    border-radius: 7px;
+    display: inline-block;
+    height: 50px;
+    width: 190px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    background: #7289DA;
+    overflow: hidden;
+    text-decoration: none;
+    transition: 0.75s;
+}
+.discordbtn .icon-brands-fa-discord {
+    text-shadow: 2px 2px 1px #224282;
+    font-size: 30px;
+}
+.discordbtn:hover {
+    background: #8C9EFF;
+    transition: 0.75s;
+}
+.discordbtn span {
+    color: #FFF;
+    display:inline-block;
+}
 
 
 /* ポップアップ (参考: weapon.html) */

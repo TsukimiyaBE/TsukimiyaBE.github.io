@@ -17,7 +17,7 @@ let text = [
     "          <li><a href=\"war.html\"><span class=\"icon solid fa-chess\">戦争全般</span></a></li>",
     "          <li><a href=\"weapon.html\"><span class=\"icon solid fa-bomb\">武器とツール</span></a></li>",
     "          <li><a href=\"emoji.html\"><span class=\"icon solid fa-icons\">絵文字一覧</span></a></li>",
-    "          <li><a href=\"admin.html\"><span class=\"icon solid fa-users-cog\">開発者</span></a></li>",
+    "          <li><a href=\"admin.html\"><span class=\"icon solid fa-users-cog\">スタッフ</span></a></li>",
     "        </ul>",
     "      </nav>",
     "  </div>",
